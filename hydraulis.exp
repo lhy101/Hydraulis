@@ -1,0 +1,4 @@
+#!/bin/bash
+export HYDRAULIS_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+export LD_LIBRARY_PATH="${HYDRAULIS_HOME}/build/lib:${HYDRAULIS_HOME}/build/hydraulis/third_party/cutlass/install:${LD_LIBRARY_PATH}"
+export PYTHONPATH="${HYDRAULIS_HOME}/python_refactor:${HYDRAULIS_HOME}/build/lib:${PYTHONPATH}"
