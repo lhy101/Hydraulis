@@ -37,7 +37,7 @@ bash data/create_web_dataset.sh
 
 You can analyze the imbalance issues described in our paper by running:
 
-```
+```bash
 python examples/analyze_dataset.py
 ```
 
@@ -47,7 +47,7 @@ This will calculate the sequence length distribution of the dataset. You can als
 
 We provide a one-click profiling script to profile the memory and latency of different parallel schemes:
 
-```
+```bash
 cd examples
 bash scripts/profile_all_parallel_schemes.py
 ```
